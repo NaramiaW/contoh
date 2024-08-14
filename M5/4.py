@@ -19,12 +19,12 @@ img_back = "galaxy.jpg" # game background
 img_bullet = "bullet.png" # bullet
 img_hero = "rocket.png" # character
 img_enemy = "ufo.png" # enemy
- 
+
 score = 0 # ships hit
 goal = 10 # how many ships need to be hit to win
 lost = 0 # ships missed
 max_lost = 3 # lost if this many missed
- 
+
 # parent class for other sprites
 class GameSprite(sprite.Sprite):
   # class constructor
